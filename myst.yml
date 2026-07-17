@@ -13,7 +13,7 @@ project:
     JB-workshop: https://jupyter-book.github.io/workshop-template/
     
   exclude: 
-    - datalog.md
+    - errorlog.md
     
   bibliography:
     - references.bib

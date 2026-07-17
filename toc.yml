@@ -1,12 +1,9 @@
 version: 1
 project:
   toc:
-    - file: content/Index.md
-    - file: content/Quickstart.md
     - file: content/Introduction.md
-    - file: content/Results.ipynb
+    - file: content/Theory.md
+    - file: content/Methodology.md
+    - file: content/Results.md
     - file: content/Conclusion.md
     - title: Appendix
-      children:
-        - file: content/Cheatsheet.md
-        - file: errorlog.md
