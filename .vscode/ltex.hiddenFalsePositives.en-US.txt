@@ -1,0 +1,2 @@
+{"rule":"ADJECTIVE_IN_ATTRIBUTE","sentence":"^\\QHowever in the scope of this thesis, the interaction objects and propagating distances are much bigger in size than the wavelength of the light.\\E$"}
+{"rule":"ADJECTIVE_IN_ATTRIBUTE","sentence":"^\\QHowever in the scope of this thesis, the interaction objects and propagating distances are bigger in size than the wavelength of the light.\\E$"}

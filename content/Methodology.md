@@ -15,6 +15,7 @@ Imaging Lens
 #### Screen
 Photo
 Irradiance
+#### Samples
 
 ### Calibration
 
@@ -25,17 +26,19 @@ Why is it needed
 What are they,
 How to measure it
 
-### Measurements
+### Measurements (change titel)
 
 #### Camera
 Image of Setup
 Different positons of source(how many measurements)
 
+##### Flat source etc
+
 #### Screen
 Image of setup
 Different positons of source(how many measurements)
 
-
+##### Flat source etc
 
 ## Raytracing
 
@@ -56,5 +59,8 @@ How to define surfaces in Mitsuba
 ### Optimization
 
 #### Single measuremtn optimization
+diagram (illustrator, inkscape), check link in Teams optics Group
 #### multiple measuremnts optimization
+diagram 
+#### Compare/## Validation of Modeling
 
