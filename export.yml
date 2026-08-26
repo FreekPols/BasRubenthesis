@@ -1,29 +1,45 @@
 version: 1
 project:
+  downloads:
+    - id: thesis-pdf
   exports:
-    # - format: pdf
-    #   template: https://github.com/TUD-JB-OS/latex_template.git
-    #   output: exports/report_tex.pdf
-    #   id: report_tex
-    
-    - format: typst
-      template: https://github.com/TUD-JB-OS/typst_template.git 
-      output: exports/report_typst.pdf
-      id: report_typst
+    - id: thesis-pdf
+      format: typst
+      template: https://github.com/TUD-JB-OS/typst_template.git
+      output: ./exports/typst_template_example.pdf
 
-      cover_page_variant: graphical
-      cover_background_image: content/figures/cover.png
-      title_page_variant: "formal"
-      title_page_image_anchor: bottom
-      title_page_image_width_cm: 3
-      title_page_image_dx_cm: 0
-      title_page_image_dy_cm: -3.0
+# ==============================================================================
+# Document Structure and Front Matter
+# ==============================================================================
+      # Render a separate cover page before the title page. Default: true.
       show_cover_full: true
+      
+      # Render the title page after the cover page. Default: true.
       show_title_page: true
-      show_title_page_image: false
+      
+      # Show affiliation lines under supervisor and committee names on the detailed title-page layouts. Default: true.
       show_contributor_affiliations: true
+
+      # Order of fixed front-matter part pages before the table of contents.
+      # Part files are still declared in myst.yml under project.parts; this
+      # option only controls their PDF order. Empty or missing parts are skipped.
+      # Accepted values: colophon, abstract, preface, acknowledgements, dedication.
+      # Default: colophon, abstract, preface, acknowledgements, dedication.
+      # frontmatter_order: colophon, abstract, acknowledgements, dedication, preface
+
+# ==============================================================================
+# Table of Contents and Lists of Figures/Tables
+# ==============================================================================
+      # Render the table of contents in the front matter. Default: true.
       show_toc: true
+      
+      # Maximum heading depth shown in the table of contents. Default: 2.
+      toc_depth: 2
+      
+      # Render a list of figures in the front matter. Default: false.
       show_list_of_figures: false
+      
+      # Render a list of tables in the front matter. Default: false.
       show_list_of_tables: false
       frontmatter_numbering: roman
       mainmatter_numbering: arabic
