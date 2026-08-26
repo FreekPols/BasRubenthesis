@@ -35,8 +35,8 @@ project:
     thesis_institution: Delft University of Technology
     thesis_defense_date: Friday June 19, 2026 at 10:00
 
-  # downloads:
+  downloads:
   #   - id: report_tex
   #     title: PDF (LaTeX)
-  #   - id: report_typst
-  #     title: PDF (Typst)
+    - id: report_typst
+      title: PDF (Typst)
