@@ -1,10 +1,10 @@
 version: 1
 project:
   exports:
-    - id: report-typst
+    - id: report_typst
       format: typst
       template: https://github.com/TUD-JB-OS/typst_template.git
-      output: ./exports/typst_template_example.pdf
+      output: ./exports/report_typst.pdf
 
 # ==============================================================================
 # Document Structure and Front Matter
