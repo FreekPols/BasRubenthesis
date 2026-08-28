@@ -1,7 +1,7 @@
 version: 1
 project:
   exports:
-    - id: thesis-pdf
+    - id: report-typst
       format: typst
       template: https://github.com/TUD-JB-OS/typst_template.git
       output: ./exports/typst_template_example.pdf

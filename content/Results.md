@@ -2,7 +2,7 @@
 
 ## Calibration results
 
-## Example of Measuremtn
+## Example of Measurement
 
 ## Optimization results
 
