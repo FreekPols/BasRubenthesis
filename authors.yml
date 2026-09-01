@@ -2,7 +2,7 @@ version: 1
 project:
   
   authors:
-    - id: 4964667
+    - id: "4964667"
       name: Bas Ruben
       affiliations:
         - tud

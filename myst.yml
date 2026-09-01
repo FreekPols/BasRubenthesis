@@ -37,7 +37,7 @@ site:
     hide_authors: true
     style: style/custom.css
   actions:
-    - title: PDF
-      url: ./exports/report_tex.pdf
+    # - title: PDF
+    #   url: ./exports/report_tex.pdf
     - title: Typst PDF
       url: ./exports/report_typst.pdf
