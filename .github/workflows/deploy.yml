@@ -90,7 +90,7 @@ jobs:
 
       # To build the HTML site
       - name: Build HTML Assets
-        run: myst build --all --execute
+        run: myst build --html --typst --execute
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
