@@ -40,5 +40,5 @@ site:
     # - title: PDF
     #   url: ./exports/report_tex.pdf
     - title: Typst PDF
-      url: ./exports/report_typst.pdf
+      url: ./exports/thesis.pdf
       static: true
