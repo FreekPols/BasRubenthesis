@@ -4,7 +4,7 @@ project:
     - id: report_typst
       format: typst
       template: https://github.com/TUD-JB-OS/typst_template.git
-      output: ./exports/report_typst.pdf
+      output: ./exports/thesis.pdf
 
 # ==============================================================================
 # Document Structure and Front Matter
@@ -50,8 +50,8 @@ project:
     thesis_institution: Delft University of Technology
     thesis_defense_date: Friday June 19, 2026 at 10:00
 
-  downloads:
-    # - id: report_tex
-    #   title: PDF (LaTeX)
-    - id: report_typst
-      title: PDF (Typst)
+  # downloads:
+  #   # - id: report_tex
+  #   #   title: PDF (LaTeX)
+  #   - id: report_typst
+  #     title: PDF (Typst)
